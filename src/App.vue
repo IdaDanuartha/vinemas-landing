@@ -19,8 +19,8 @@ import Footer from "./components/sections/Footer.vue";
       <NowShowing />
       <ComingSoon />
       <Cinemas />
-      <Footer />
     </main>
+    <Footer />
   </div>
 </template>
 
