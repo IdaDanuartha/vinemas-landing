@@ -4,14 +4,14 @@
 <template>
   <section>
     <h1 class="mb-6">Cinemas</h1>
-    <div class="grid grid-cols-3">
-      <div class="col-span-2 relative">
+    <div class="grid xl:grid-cols-3 grid-cols-1">
+      <div class="xl:col-span-2 relative">
         <img src="/src/assets/img/cinemas/vinemas_jimbaran.svg" class="rounded-[18px] w-full" alt="">
         <div class="absolute text-white bottom-6 left-6">
           <h4 class="font-montserrat-bold text-[28px]">Vinemas FIlm Jimbaran Area</h4>
         </div>
       </div>
-      <div class="ml-3">
+      <div class="ml-3 xl:mt-0 mt-5">
         <div class="card">
           <h4 class="font-montserrat-bold text-lg">Vinemas Film Denpasar City</h4>
           <p class="text-[12px]">Jl. Teuku Umar No.1, Kec. Denpasar Bar., Kota Denpasar, Bali 80113</p>
@@ -24,7 +24,7 @@
             <button class="btn-default">See On Map</button>
           </div>
         </div>
-        <div class="card">
+        <div class="card last-card">
           <h4 class="font-montserrat-bold text-lg">Vinemas Film Tabanan City</h4>
           <p class="text-[12px]">Jl. Gelatik, Kec. Tabanan, Kabupaten Tabanan, Bali 82113</p>
         </div>
@@ -48,5 +48,11 @@
 
 .card .btn-default {
   @apply text-main-color bg-white py-2 px-4 rounded-full ml-3 text-[12px] transition-all duration-300 hover:text-white hover:bg-transparent hover:outline hover:outline-1 hover:outline-white;
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .last-card {
+    @apply hidden;
+  }
 }
 </style>

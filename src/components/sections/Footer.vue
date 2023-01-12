@@ -13,15 +13,15 @@
           <h3 class="font-montserrat-bold text-2xl">All Location</h3>
           <div class="my-6">
             <h6 class="font-montserrat-bold">Vinemas Film Denpasar City</h6>
-            <p>Jl. Teuku Umar No.1, Kec. Denpasar Bar., Kota Denpasar, Bali 80113</p>
+            <p class="text-[14px]">Jl. Teuku Umar No.1, Kec. Denpasar Bar., Kota Denpasar, Bali 80113</p>
           </div>
           <div class="my-6">
             <h6 class="font-montserrat-bold">Vinemas Film Jimbaran Area</h6>
-            <p>Jl. Kediri, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361</p>
+            <p class="text-[14px]">Jl. Kediri, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361</p>
           </div>
           <div class="my-6">
             <h6 class="font-montserrat-bold">Vinemas Film Tabanan City</h6>
-            <p>Jl. Gelatik, Kec. Tabanan, Kabupaten Tabanan, Bali 82113</p>
+            <p class="text-[14px]">Jl. Gelatik, Kec. Tabanan, Kabupaten Tabanan, Bali 82113</p>
           </div>
         </div>
         <div class="text-white">
@@ -36,7 +36,7 @@
             <i class="fa-brands fa-instagram fa-xl"></i>
             <i class="fa-brands fa-google-plus-g fa-xl"></i>
           </div>
-          <p class="text-white/60">Copyright © 2022 • VinemaFilms.</p>
+          <p class="text-white/60 text-[14px]">Copyright © 2022 • VinemaFilms.</p>
         </div>
       </div>
     </div>
