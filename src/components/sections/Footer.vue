@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div></div>
+  <div class="mt-20"></div>
 </template>
 
 <style scoped>
