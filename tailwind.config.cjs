@@ -19,6 +19,7 @@ module.exports = {
       },
       fontFamily: {
         "montserrat-regular": ['montserrat-regular', 'sans-serif', 'arial'],
+        "montserrat-medium": ['montserrat-medium', 'sans-serif', 'arial'],
         "montserrat-semibold": ['montserrat-semibold', 'sans-serif', 'arial'],
         "montserrat-bold": ['montserrat-bold', 'sans-serif', 'arial'],
         "lora-regular": ['lora-regular', 'sans-serif', 'arial'],

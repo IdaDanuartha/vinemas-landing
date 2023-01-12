@@ -96,6 +96,20 @@ export default {
             src="/src/assets/img/trending_movie/mulan.svg"
             alt="" /></a
       ></swiper-slide>
+      <swiper-slide>
+        <a href="#">
+          <img
+            class="rounded-[18px] w-full"
+            src="/src/assets/img/trending_movie/doctor_strange.svg"
+            alt="" /></a
+      ></swiper-slide>
+      <swiper-slide>
+        <a href="#">
+          <img
+            class="rounded-[18px] w-full"
+            src="/src/assets/img/trending_movie/turning_red.svg"
+            alt="" /></a
+      ></swiper-slide>
     </swiper>
   </section>
 </template>
