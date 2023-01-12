@@ -54,7 +54,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/now_showing/shang_chi.svg"
             alt=""
           />
@@ -68,7 +68,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/now_showing/john_wick3.svg"
             alt=""
           />
@@ -82,7 +82,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/now_showing/dr_strange.svg"
             alt=""
           />
@@ -96,7 +96,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/now_showing/jurassic_world.svg"
             alt=""
           />
@@ -110,7 +110,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/now_showing/spiderman.svg"
             alt=""
           />
@@ -124,7 +124,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/now_showing/shang_chi.svg"
             alt=""
           />
@@ -138,7 +138,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/now_showing/john_wick3.svg"
             alt=""
           />
@@ -152,7 +152,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/now_showing/dr_strange.svg"
             alt=""
           />

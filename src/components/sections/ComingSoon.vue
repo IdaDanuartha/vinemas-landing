@@ -51,7 +51,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/coming_soon/black_adam.svg"
             alt=""
           />
@@ -68,7 +68,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/coming_soon/john_wick4.svg"
             alt=""
           />
@@ -85,7 +85,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/coming_soon/the_batman.svg"
             alt=""
           />
@@ -102,7 +102,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/coming_soon/morbius.svg"
             alt=""
           />
@@ -119,7 +119,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/coming_soon/black_adam.svg"
             alt=""
           />
@@ -136,7 +136,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/coming_soon/john_wick4.svg"
             alt=""
           />
@@ -153,7 +153,7 @@ export default {
       <swiper-slide>
         <a href="#">
           <img
-            class="rounded-tr-[18px] rounded-tl-[18px] w-full"
+            class="image rounded-tr-[18px] rounded-tl-[18px] w-full"
             src="/src/assets/img/coming_soon/the_batman.svg"
             alt=""
           />
@@ -181,8 +181,7 @@ export default {
 }
 
 .swiper-slide {
-  @apply rounded-[18px];
-  background: linear-gradient(to bottom, rgb(79, 79, 79), rgb(33, 33, 33));
+  @apply rounded-[18px] bg-gradient-to-b from-third-color to-secondary-color;
 }
 
 .swiper-slide .detail-card {

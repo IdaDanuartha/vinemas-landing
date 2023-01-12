@@ -55,9 +55,18 @@
   section {
     @apply mt-[100px];
   }
+
 }
 
 @layer components {
+  .image {
+    @apply transition-all duration-300;
+  }
+
+  .image:hover {
+    @apply grayscale-[60%];
+  }
+
   .img-gradient {
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
   }
