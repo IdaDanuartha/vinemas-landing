@@ -57,19 +57,19 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
   }
 
-  .custom-pagination-wrapper {
-    @apply relative w-max mt-6 mx-auto flex;
+  .swiper {
+    @apply relative;
+  }
+
+  .swiper .swiper-pagination {
+    @apply absolute bottom-0;
   }
   
-  .custom-swiper-pagination {
-    @apply relative w-max;
+  .swiper-pagination .card-swiper-pagination-bullet {
+    @apply bg-white relative top-4 opacity-100 rounded-[2px] transition-all w-8 h-0.5;
   }
   
-  .custom-swiper-pagination .swiper-pagination-bullet {
-    @apply bg-white opacity-100 m-[2px] transition-all;
-  }
-  
-  .custom-swiper-pagination .swiper-pagination-bullet-active {
-    @apply bg-main-color w-7 rounded-full;
+  .swiper-pagination .card-swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-main-color w-7;
   }
 }

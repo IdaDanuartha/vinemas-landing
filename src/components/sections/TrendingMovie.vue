@@ -9,6 +9,16 @@ export default {
   },
   setup() {
     return {
+      pagination: {
+        clickable: true,
+        renderBullet: function (index, className) {
+          return (
+            '<span class="card-swiper-pagination-bullet ' +
+            className +
+            '"></span>'
+          );
+        },
+      },
       modules: [Pagination],
     };
   },
@@ -21,11 +31,7 @@ export default {
     <swiper
       :slides-per-view="5"
       :space-between="12"
-      :pagination="{
-        el: 'pagination-wrapper',
-        clickable: true,
-        dinamicBullets: true,
-      }"
+      :pagination="pagination"
       :modules="modules"
       :breakpoints="{
         '0': {
@@ -46,49 +52,56 @@ export default {
       }"
     >
       <swiper-slide>
-        <img
-          class="rounded-[18px] w-full"
-          src="/src/assets/img/trending_movie/mulan.svg"
-          alt=""
-        />
+        <a href="#">
+          <img
+            class="rounded-[18px] w-full"
+            src="/src/assets/img/trending_movie/mulan.svg"
+            alt=""
+          />
+        </a>
       </swiper-slide>
-      <swiper-slide
-        ><img
-          class="rounded-[18px] w-full"
-          src="/src/assets/img/trending_movie/doctor_strange.svg"
-          alt=""
-      /></swiper-slide>
-      <swiper-slide
-        ><img
-          class="rounded-[18px] w-full"
-          src="/src/assets/img/trending_movie/turning_red.svg"
-          alt=""
-      /></swiper-slide>
       <swiper-slide>
-        <img
-          class="rounded-[18px] w-full"
-          src="/src/assets/img/trending_movie/jurassic_world.svg"
-          alt=""
-        />
+        <a href="#">
+          <img
+            class="rounded-[18px] w-full"
+            src="/src/assets/img/trending_movie/doctor_strange.svg"
+            alt="" /></a
+      ></swiper-slide>
+      <swiper-slide>
+        <a href="#">
+          <img
+            class="rounded-[18px] w-full"
+            src="/src/assets/img/trending_movie/turning_red.svg"
+            alt="" /></a
+      ></swiper-slide>
+      <swiper-slide>
+        <a href="#">
+          <img
+            class="rounded-[18px] w-full"
+            src="/src/assets/img/trending_movie/jurassic_world.svg"
+            alt=""
+        /></a>
       </swiper-slide>
-      <swiper-slide
-        ><img
-          class="rounded-[18px] w-full"
-          src="/src/assets/img/trending_movie/thor.svg"
-          alt=""
-      /></swiper-slide>
-      <swiper-slide
-        ><img
-          class="rounded-[18px] w-full"
-          src="/src/assets/img/trending_movie/mulan.svg"
-          alt=""
-      /></swiper-slide>
+      <swiper-slide>
+        <a href="#">
+          <img
+            class="rounded-[18px] w-full"
+            src="/src/assets/img/trending_movie/thor.svg"
+            alt="" /></a
+      ></swiper-slide>
+      <swiper-slide>
+        <a href="#">
+          <img
+            class="rounded-[18px] w-full"
+            src="/src/assets/img/trending_movie/mulan.svg"
+            alt="" /></a
+      ></swiper-slide>
     </swiper>
-    <div class="pagination-wrapper">
-      <div class="swiper-pagination"></div>
-    </div>
   </section>
 </template>
 
 <style scoped>
+.swiper .swiper-slide {
+  @apply relative -top-5 pt-5;
+}
 </style>
