@@ -179,6 +179,10 @@ export default {
   @apply hover:bg-main-color hover:text-white cursor-pointer transition-all flex w-9 h-9 rounded-full absolute -translate-y-1/2 top-1/2 border-2 border-main-color text-main-color z-10 items-center justify-center;
 }
 
+/* .swiper-next-hero.swiper-button-disabled {
+  @apply bg-main-color text-white;
+} */
+
 .overlay-1 {
   @apply w-full h-full absolute bg-gradient-to-r from-black to-transparent;
 }
@@ -192,6 +196,6 @@ export default {
 }
 
 .btn-hero {
-  @apply bg-main-color text-white px-8 py-3 rounded-full;
+  @apply bg-main-color text-white px-8 py-3 rounded-full hover:opacity-80 transition-all duration-300 focus:outline focus:outline-4 focus:outline-main-color/50;
 }
 </style>
