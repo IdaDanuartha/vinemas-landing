@@ -1,207 +1,197 @@
-<script setup>
+<script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Navigation } from "swiper";
+import "swiper/css/navigation";
+
+export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Navigation],
+    };
+  },
+};
 </script>
 
 <template>
-  <header id="default-carousel" class="relative z-1" data-carousel="static">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-[800px]">
-      <!-- Item 1 -->
-      <div class="hidden duration-700 ease-in-out img-gradient" data-carousel-item>
-        <span
-          class="
-            absolute
-            text-2xl
-            font-semibold
-            text-white
-            -translate-x-1/2 -translate-y-1/2
-            top-1/2
-            left-1/2
-            sm:text-3xl
-            dark:text-gray-800
-          "
-          >First Slide</span
-        >
+  <swiper
+    :slides-per-view="1"
+    :navigation="{
+      nextEl: '.swiper-next-hero',
+      prevEl: '.swiper-prev-hero',
+    }"
+    :modules="modules"
+  >
+    <swiper-slide>
+      <div class="overlay-1"></div>
+      <div class="overlay-2"></div>
+      <div class="container description-hero">
+        <img src="/src/assets/img/header/logo_thor.svg" alt="" />
+        <h1 class="mt-12">Thor : Love and Thunder</h1>
+        <h3 class="font-montserrat-medium text-white mt-3 text-sm uppercase">
+          Christopher Hemsworth, Christian Bale, Natalie Portman
+        </h3>
+        <div class="flex text-white my-3">
+          <p>1 Hour 59 Minute</p>
+          <p>
+            <i class="fa-solid fa-circle text-[8px] relative -top-0.5 mx-3"></i>
+          </p>
+          <p>6 July 2022</p>
+          <p>
+            <i class="fa-solid fa-circle text-[8px] relative -top-0.5 mx-3"></i>
+          </p>
+          <p>English</p>
+        </div>
+        <p class="font-montserrat-light text-white/80">
+          "Thor: Love and Thunder" tells Thor on a journey he has never been on <br>
+          – the search for inner peace. However, his retirement is interrupted
+          by <br> a galactic assassin known as Gorr the Butcher God, who wants to<br>
+          exterminate the gods.
+        </p>
+        <div class="flex mt-12">
+          <button class="btn-hero flex mr-3">
+            <span>Trailer</span>
+            <img src="/src/assets/img/header/trailer_icon.svg" class="mt-1.5 ml-2" alt="">
+          </button>
+          <button class="btn-hero flex">
+            <span>Booking Now!</span>
+            <img src="/src/assets/img/header/booking_icon.svg" class="mt-0.5 ml-2" alt="">
+          </button>
+        </div>
+      </div>
+      <div class="hero-img">
         <img
+          class="w-full hero-img"
           src="/src/assets/img/header/hero_img.svg"
-          class="
-            absolute
-            block
-            w-full
-            -translate-x-1/2 -translate-y-1/2
-            top-1/2
-            left-1/2
-          "
-          alt="..."
+          alt=""
         />
       </div>
-      <!-- Item 2 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="overlay-1"></div>
+      <div class="overlay-2"></div>
+      <div class="container description-hero">
+        <img src="/src/assets/img/header/logo_thor.svg" alt="" />
+        <h1 class="mt-12">Thor : Love and Thunder</h1>
+        <h3 class="font-montserrat-medium text-white mt-3 text-sm uppercase">
+          Christopher Hemsworth, Christian Bale, Natalie Portman
+        </h3>
+        <div class="flex text-white my-3">
+          <p>1 Hour 59 Minute</p>
+          <p>
+            <i class="fa-solid fa-circle text-[8px] relative -top-0.5 mx-3"></i>
+          </p>
+          <p>6 July 2022</p>
+          <p>
+            <i class="fa-solid fa-circle text-[8px] relative -top-0.5 mx-3"></i>
+          </p>
+          <p>English</p>
+        </div>
+        <p class="font-montserrat-light text-white/80">
+          "Thor: Love and Thunder" tells Thor on a journey he has never been on <br>
+          – the search for inner peace. However, his retirement is interrupted
+          by <br> a galactic assassin known as Gorr the Butcher God, who wants to<br>
+          exterminate the gods.
+        </p>
+        <div class="flex mt-12">
+          <button class="btn-hero flex mr-3">
+            <span>Trailer</span>
+            <img src="/src/assets/img/header/trailer_icon.svg" class="mt-1.5 ml-2" alt="">
+          </button>
+          <button class="btn-hero flex">
+            <span>Booking Now!</span>
+            <img src="/src/assets/img/header/booking_icon.svg" class="mt-0.5 ml-2" alt="">
+          </button>
+        </div>
+      </div>
+      <div class="hero-img">
         <img
-          src="https://picsum.photos/1200/800"
-          class="
-            absolute
-            block
-            w-full
-            -translate-x-1/2 -translate-y-1/2
-            top-1/2
-            left-1/2
-          "
-          alt="..."
+          class="w-full hero-img"
+          src="/src/assets/img/header/hero_img.svg"
+          alt=""
         />
       </div>
-      <!-- Item 3 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="overlay-1"></div>
+      <div class="overlay-2"></div>
+      <div class="container description-hero">
+        <img src="/src/assets/img/header/logo_thor.svg" alt="" />
+        <h1 class="mt-12">Thor : Love and Thunder</h1>
+        <h3 class="font-montserrat-medium text-white mt-3 text-sm uppercase">
+          Christopher Hemsworth, Christian Bale, Natalie Portman
+        </h3>
+        <div class="flex text-white my-3">
+          <p>1 Hour 59 Minute</p>
+          <p>
+            <i class="fa-solid fa-circle text-[8px] relative -top-0.5 mx-3"></i>
+          </p>
+          <p>6 July 2022</p>
+          <p>
+            <i class="fa-solid fa-circle text-[8px] relative -top-0.5 mx-3"></i>
+          </p>
+          <p>English</p>
+        </div>
+        <p class="font-montserrat-light text-white/80">
+          "Thor: Love and Thunder" tells Thor on a journey he has never been on <br>
+          – the search for inner peace. However, his retirement is interrupted
+          by <br> a galactic assassin known as Gorr the Butcher God, who wants to<br>
+          exterminate the gods.
+        </p>
+        <div class="flex mt-12">
+          <button class="btn-hero flex mr-3">
+            <span>Trailer</span>
+            <img src="/src/assets/img/header/trailer_icon.svg" class="mt-1.5 ml-2" alt="">
+          </button>
+          <button class="btn-hero flex">
+            <span>Booking Now!</span>
+            <img src="/src/assets/img/header/booking_icon.svg" class="mt-0.5 ml-2" alt="">
+          </button>
+        </div>
+      </div>
+      <div class="hero-img">
         <img
-          src="https://picsum.photos/1200/801"
-          class="
-            absolute
-            block
-            w-full
-            -translate-x-1/2 -translate-y-1/2
-            top-1/2
-            left-1/2
-          "
-          alt="..."
+          class="w-full hero-img"
+          src="/src/assets/img/header/hero_img.svg"
+          alt=""
         />
       </div>
+    </swiper-slide>
+    <div class="swiper-next-hero right-[145px] mt-[400px]">
+      <i class="fa-solid fa-chevron-right"></i>
     </div>
-    <!-- Slider indicators -->
-    <div
-      class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2"
-    >
-      <button
-        type="button"
-        class="w-3 h-3 rounded-full"
-        aria-current="false"
-        aria-label="Slide 1"
-        data-carousel-slide-to="0"
-      ></button>
-      <button
-        type="button"
-        class="w-3 h-3 rounded-full"
-        aria-current="false"
-        aria-label="Slide 2"
-        data-carousel-slide-to="1"
-      ></button>
-      <button
-        type="button"
-        class="w-3 h-3 rounded-full"
-        aria-current="false"
-        aria-label="Slide 3"
-        data-carousel-slide-to="2"
-      ></button>
+    <div class="swiper-prev-hero right-[200px] top-12 mt-[400px]">
+      <i class="fa-solid fa-chevron-left"></i>
     </div>
-    <!-- Slider controls -->
-    <button
-      type="button"
-      class="
-        absolute
-        top-0
-        left-0
-        z-30
-        flex
-        items-center
-        justify-center
-        h-full
-        px-4
-        cursor-pointer
-        group
-        focus:outline-none
-      "
-      data-carousel-prev
-    >
-      <span
-        class="
-          inline-flex
-          items-center
-          justify-center
-          w-8
-          h-8
-          rounded-full
-          sm:w-10 sm:h-10
-          bg-white/30
-          dark:bg-gray-800/30
-          group-hover:bg-white/50
-          dark:group-hover:bg-gray-800/60
-          group-focus:ring-4 group-focus:ring-white
-          dark:group-focus:ring-gray-800/70
-          group-focus:outline-none
-        "
-      >
-        <svg
-          aria-hidden="true"
-          class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M15 19l-7-7 7-7"
-          ></path>
-        </svg>
-        <span class="sr-only">Previous</span>
-      </span>
-    </button>
-    <button
-      type="button"
-      class="
-        absolute
-        top-0
-        right-0
-        z-30
-        flex
-        items-center
-        justify-center
-        h-full
-        px-4
-        cursor-pointer
-        group
-        focus:outline-none
-      "
-      data-carousel-next
-    >
-      <span
-        class="
-          inline-flex
-          items-center
-          justify-center
-          w-8
-          h-8
-          rounded-full
-          sm:w-10 sm:h-10
-          bg-white/30
-          dark:bg-gray-800/30
-          group-hover:bg-white/50
-          dark:group-hover:bg-gray-800/60
-          group-focus:ring-4 group-focus:ring-white
-          dark:group-focus:ring-gray-800/70
-          group-focus:outline-none
-        "
-      >
-        <svg
-          aria-hidden="true"
-          class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M9 5l7 7-7 7"
-          ></path>
-        </svg>
-        <span class="sr-only">Next</span>
-      </span>
-    </button>
-  </header>
+  </swiper>
 </template>
 
 <style scoped>
+.swiper {
+  @apply h-[916px] relative;
+}
+
+.swiper-next-hero,
+.swiper-prev-hero {
+  @apply hover:bg-main-color hover:text-white cursor-pointer transition-all flex w-9 h-9 rounded-full absolute -translate-y-1/2 top-1/2 border-2 border-main-color text-main-color z-10 items-center justify-center;
+}
+
+.overlay-1 {
+  @apply w-full h-full absolute bg-gradient-to-r from-black to-transparent;
+}
+
+.overlay-2 {
+  @apply w-full h-1/2 bottom-0 absolute bg-gradient-to-t from-black to-transparent;
+}
+
+.description-hero {
+  @apply absolute top-56 left-40;
+}
+
+.btn-hero {
+  @apply bg-main-color text-white px-8 py-3 rounded-full;
+}
 </style>

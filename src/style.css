@@ -4,6 +4,11 @@
 
 /* Font Montserrat */
 @font-face {
+  font-family: "montserrat-light";
+  src: url("./assets/fonts/montserrat/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "montserrat-regular";
   src: url("./assets/fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
 }

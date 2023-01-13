@@ -190,7 +190,7 @@
 
 <style scoped>
 .card-vertical .detail-card {
-  bottom: 16px !important;
+  bottom: 14px !important;
 }
 
 .card-vertical,

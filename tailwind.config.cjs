@@ -18,6 +18,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        "montserrat-light": ['montserrat-light', 'sans-serif', 'arial'],
         "montserrat-regular": ['montserrat-regular', 'sans-serif', 'arial'],
         "montserrat-medium": ['montserrat-medium', 'sans-serif', 'arial'],
         "montserrat-semibold": ['montserrat-semibold', 'sans-serif', 'arial'],

@@ -31,10 +31,10 @@
             <p>(123) 456-7890</p>
           </div>
           <div class="my-12 flex justify-between">
-            <i class="fa-brands fa-square-facebook fa-xl"></i>
-            <i class="fa-brands fa-twitter fa-xl"></i>
-            <i class="fa-brands fa-instagram fa-xl"></i>
-            <i class="fa-brands fa-google-plus-g fa-xl"></i>
+            <a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g fa-xl"></i></a>
           </div>
           <p class="text-white/60 text-[14px]">Copyright © 2022 • VinemaFilms.</p>
         </div>
