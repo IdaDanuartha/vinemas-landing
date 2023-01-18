@@ -4,12 +4,12 @@
 <template>
   <footer>
     <div class="container mx-auto">
-      <div class="grid grid-cols-4 border-t border-b py-16 border-main-color">
+      <div class="grid lg:grid-cols-4 md:grid-cols-1 border-t border-b py-16 border-main-color">
         <div class="">
           <img src="/src/assets/img/footer/logo_vinema.svg" alt="">
           <p class="text-white/80 mt-6">Best App For Movie Lovers In Indonesia! Movie Entertainment Platform From Cinema To Online Movie Streaming Selections.</p>
         </div>
-        <div class="text-white col-span-2 mx-20">
+        <div class="text-white col-span-2 lg:mx-20 mx-0 lg:my-0 my-10">
           <h3 class="font-montserrat-bold text-2xl">All Location</h3>
           <div class="my-6">
             <h6 class="font-montserrat-bold">Vinemas Film Denpasar City</h6>
@@ -30,11 +30,11 @@
             <div class="mr-3"><i class="fa-solid fa-phone fa-lg"></i></div>
             <p>(123) 456-7890</p>
           </div>
-          <div class="my-12 flex justify-between">
-            <a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
-            <a href="#"><i class="fa-brands fa-google-plus-g fa-xl"></i></a>
+          <div class="my-12 flex lg:justify-between justify-start">
+            <a href="#"><i class="fa-brands lg:mr-0 mr-7 fa-square-facebook fa-xl"></i></a>
+            <a href="#"><i class="fa-brands lg:mr-0 mr-7 fa-twitter fa-xl"></i></a>
+            <a href="#"><i class="fa-brands lg:mr-0 mr-7 fa-instagram fa-xl"></i></a>
+            <a href="#"><i class="fa-brands lg:mr-0 mr-7 fa-google-plus-g fa-xl"></i></a>
           </div>
           <p class="text-white/60 text-[14px]">Copyright © 2022 • VinemaFilms.</p>
         </div>

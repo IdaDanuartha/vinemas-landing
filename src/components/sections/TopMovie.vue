@@ -4,8 +4,8 @@
 <template>
   <section>
     <h1 class="mb-6">Top Movie This Week</h1>
-    <div class="flex w-full">
-      <div class="card-vertical w-[75%]">
+    <div class="min-[1280px]:flex grid md:grid-cols-2 grid-cols-1 w-full">
+      <div class="card-vertical min-[1280px]:w-[75%] w-full">
         <div class="rating">
           <h6 class="text-[12px] font-montserrat-semibold">8.1</h6>
           <span class="font-montserrat-regular text-[8px] mt-[3px]"
@@ -25,7 +25,7 @@
           <h5>Spider-Man : No Way Home</h5>
         </div>
       </div>
-      <div class="flex flex-col ml-3 w-full">
+      <div class="flex flex-col md:ml-3 md:mt-0 mt-5 w-full">
         <div class="card-horizontal mb-3">
           <div class="rating">
             <h6 class="text-[12px] font-montserrat-semibold">8.1</h6>
@@ -67,9 +67,9 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col ml-3 w-full">
-        <div class="card-small-horizontal">
-          <div class="flex">
+      <div class="flex flex-col min-[1280px]:ml-3 min-[1280px]:mt-0 mt-5 w-full">
+        <div class="card-small-horizontal flex">
+          <div class="flex items-center">
             <h4
               class="
                 font-montserrat-bold
@@ -96,8 +96,8 @@
             alt=""
           />
         </div>
-        <div class="card-small-horizontal">
-          <div class="flex">
+        <div class="card-small-horizontal flex">
+          <div class="flex items-center">
             <h4
               class="
                 font-montserrat-bold
@@ -124,8 +124,8 @@
             alt=""
           />
         </div>
-        <div class="card-small-horizontal">
-          <div class="flex">
+        <div class="card-small-horizontal flex">
+          <div class="flex items-center">
             <h4
               class="
                 font-montserrat-bold
@@ -152,8 +152,8 @@
             alt=""
           />
         </div>
-        <div class="card-small-horizontal">
-          <div class="flex">
+        <div class="card-small-horizontal min-[1536px]:flex hidden">
+          <div class="flex items-center">
             <h4
               class="
                 font-montserrat-bold
@@ -190,7 +190,7 @@
 
 <style scoped>
 .card-vertical .detail-card {
-  bottom: 14px !important;
+  @apply min-[1280px]:bottom-[14px] bottom-0 !important;
 }
 
 .card-vertical,
@@ -239,6 +239,6 @@
 }
 
 .card-small-horizontal {
-  @apply flex cursor-pointer justify-between mb-3 w-full items-center px-3 py-3 rounded-[18px] bg-gradient-to-r from-secondary-color to-main-color;
+  @apply cursor-pointer justify-between mb-3 w-full items-center px-3 py-3 rounded-[18px] bg-gradient-to-r from-secondary-color to-main-color;
 }
 </style>

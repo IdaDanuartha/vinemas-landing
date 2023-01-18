@@ -31,7 +31,7 @@ module.exports = {
         'main-color': 'rgb(220, 33, 31)',
         'secondary-color': 'rgb(33, 33, 33)',
         'third-color': 'rgb(79, 79, 79)',
-      }
+      },
     },
   },
   plugins: [

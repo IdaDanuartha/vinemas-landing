@@ -1,19 +1,19 @@
 <script setup>
 import { ref } from 'vue'
 
-let activeNav = ref(false)
+// let activeNav = ref(false)
 
-window.addEventListener('scroll', function () {
-  if (window.scrollY > 50) {
-    activeNav.value = true
-  } else {
-    activeNav.value = false
-  }
-})
+// window.addEventListener('scroll', function () {
+//   if (window.scrollY > 50) {
+//     activeNav.value = true
+//   } else {
+//     activeNav.value = false
+//   }
+// })
 </script>
 
 <template>
-  <nav class="px-2 sm:px-4 py-8 fixed w-full z-[99] top-0 left-0 transition-all duratio-300" :class="{ active: activeNav }">
+  <nav class="px-2 sm:px-4 py-8 absolute w-full z-[99] top-0 left-0" :class="{ active: activeNav }">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <div class="flex w-full">
         <a href="#" class="flex items-center">

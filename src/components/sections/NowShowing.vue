@@ -169,7 +169,13 @@ export default {
 
 <style scoped>
 .swiper {
-  @apply h-[570px];
+  @apply min-[1280px]:h-[570px] lg:h-[500px] md:h-[520px] min-[625px]:h-[600px] min-[570px]:h-[590px] min-[525px]:h-[530px] min-[385px]:h-[700px] min-[348px]:h-[670px] h-[630px];
+}
+
+@media (min-width: 400px) and (max-width: 524px) {
+  .swiper {
+    height: 500px;
+  }
 }
 .swiper .swiper-slide {
   @apply relative;
